@@ -8,6 +8,7 @@ public class EmployeeDTO {
     private String firstName;
     private String lastName;
     private Long phone;
+    private String title;
 
     public int getId() {
         return id;
@@ -39,5 +40,13 @@ public class EmployeeDTO {
 
     public void setPhone(Long phone) {
         this.phone = phone;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 }
